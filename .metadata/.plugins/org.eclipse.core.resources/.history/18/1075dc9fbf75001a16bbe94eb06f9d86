@@ -1,0 +1,11 @@
+package com.nikki.springmvcboot.model;
+
+public class Alien {
+	
+	private int aid;
+	
+	private String aname;
+	
+	
+
+}

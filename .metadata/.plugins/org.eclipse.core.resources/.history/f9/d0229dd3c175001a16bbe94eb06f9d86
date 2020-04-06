@@ -1,0 +1,46 @@
+package com.nikki.springmvcboot;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.nikki.springmvcboot.model.Alien;
+
+@Controller
+public class HomeController {
+	
+	
+	@RequestMapping("/")
+	public String home()
+	{
+		/* System.out.println("Requested Home Page...."); */
+		return "index";	
+	}
+	@RequestMapping("add")
+	public ModelAndView add(@RequestParam("num1") int a,@RequestParam("num2") int b)
+	{	
+		ModelAndView mv = new ModelAndView();
+		
+		mv.setViewName("result");
+	
+		int c = a + b;
+		
+		mv.addObject("result",c);
+		
+		return mv;
+	}
+	
+	@RequestMapping("addalien")
+	public String addAlien(@ModelAttribute("a1") Alien a)
+	{
+		return "result";
+		
+	}
+	
+
+}

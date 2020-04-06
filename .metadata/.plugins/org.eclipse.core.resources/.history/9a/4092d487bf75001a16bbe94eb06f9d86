@@ -1,0 +1,5 @@
+package com.nikki.springmvcboot.model;
+
+public class Alien {
+
+}

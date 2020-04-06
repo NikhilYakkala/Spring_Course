@@ -1,0 +1,19 @@
+package com.nikki.first;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Employee {
+	
+	
+	Laptop lap;
+	
+	public void work()
+	{
+		
+		lap.working();
+		
+	}
+	
+
+}

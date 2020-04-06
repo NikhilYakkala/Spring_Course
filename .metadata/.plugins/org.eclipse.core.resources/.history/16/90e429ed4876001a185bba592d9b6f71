@@ -1,0 +1,21 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  
+  <servlet>
+  <servlet-class>nikki</servlet-class>
+  <servlet-name>org.springframework.web.servlet.DispatcherServlet</servlet-name>
+  
+  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>nikki</servlet-name>
+  <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+</web-app>

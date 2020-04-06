@@ -1,0 +1,13 @@
+package com.nikki.first;
+
+public class Laptop {
+
+	public void working() {
+		
+		System.out.println("Employee is Working with Laptop....");
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,23 @@
+package com.nikki.springmvc.dao;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+
+import com.nikki.springmvc.model.Alien;
+
+public class AlienDao {
+	
+	private SessionFactory sessionFactory;
+	
+	
+	public List<Alien> 	getAliens()
+	{
+	
+		SessionFactory session = (SessionFactory) sessionFactory.getCurrentSession();
+		
+		sessionFactory.
+		
+	}
+
+}

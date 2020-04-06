@@ -1,0 +1,14 @@
+package com.nikki.springmvcboot;
+
+public class HomeController {
+	
+	public void home()
+	{
+		
+		System.out.println("Requested Home Page....");
+		
+	}
+	
+	
+
+}

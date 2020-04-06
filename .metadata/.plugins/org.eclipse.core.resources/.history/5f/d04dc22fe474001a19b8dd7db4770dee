@@ -1,0 +1,31 @@
+package com.nikki.SpringDemo;
+
+public class Employee {
+
+	private String name;
+	
+	public String getName() {
+		return name;
+	}
+
+
+
+	public void setName(String name) {
+		
+		System.out.println("Name Assigned");
+		
+		this.name = name;
+	}
+
+
+
+	public void work()
+	{
+		
+		System.out.println("Employee is working....");
+		
+	}
+	
+	
+	
+}

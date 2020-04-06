@@ -1,0 +1,5 @@
+package com.nikki.springmvcboot;
+
+public class HomeController {
+
+}
